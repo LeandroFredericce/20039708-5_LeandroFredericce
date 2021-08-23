@@ -1,0 +1,48 @@
+body {
+    margin: 0px;
+    font-family: 'Bitter', serif;
+}
+
+
+header {
+    height: 100px;
+    background-color: #FB7AFC;    
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 0px;
+}
+
+.logo {
+    height: 80px;
+}
+
+nav {
+    background-color: #FBC7F7;
+    
+}
+
+nav ul {
+    list-style: none;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    padding: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 12px;
+}
+
+.content {
+    min-height: 400px;
+}
+
+footer {
+    background-color: #FBC7F7;
+    min-height: 60px;
+    padding: 40px;
+}
