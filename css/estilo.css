@@ -41,6 +41,15 @@ nav ul li {
     min-height: 400px;
 }
 
+.container {
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 30px;
+    flex-wrap: wrap;
+}
+
 footer {
     background-color: #FBC7F7;
     min-height: 60px;

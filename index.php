@@ -23,7 +23,11 @@
         </ul>
     </nav>
     <section class="content">
-        Conteúdo
+        <div class="container">
+            <?php
+                include('pages/home.php');
+            ?>
+        </div>        
     </section>
 
     <footer >
