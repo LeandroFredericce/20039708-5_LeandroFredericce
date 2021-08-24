@@ -1,0 +1,40 @@
+.prod-cl {
+    width: 50% ;
+}
+
+.prod-cr {
+    width: 50%;
+    margin-bottom: 60px;
+
+}
+
+.prod-cl img {
+    width: 430px;
+    height: 430px;
+    border-radius: 150px;
+}
+
+.prod-cr h2 {
+    color: #787878;
+}
+
+.prod-cr p {
+    font-size: 24px;
+    font-weight: lighter;
+    margin-bottom: 60px;
+}
+
+.preco-unitario {
+    font-size: 16px;
+}
+
+.button {
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #FB7AFC;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 7px;
+    
+}
