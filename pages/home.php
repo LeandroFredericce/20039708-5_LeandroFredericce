@@ -2,8 +2,6 @@
     require_once('dados/produtos.php');
 ?>
 
-<link rel="stylesheet" type="text/css" href="css/home.css" media="screen" /> 
-
 <?php
     foreach($produtos as $id => $produto):
 ?>

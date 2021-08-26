@@ -5,12 +5,16 @@ body {
 
 a {
     text-decoration: none;
-    color: inherit;
+    color: inherit;    
+}
+
+a:hover {
+    color:#919191;
 }
 
 
 header {
-    height: 100px;
+    height: 198px;
     background-color: #FB7AFC;    
     text-align: center;
     padding: 15px;
@@ -18,7 +22,8 @@ header {
 }
 
 .logo {
-    height: 80px;
+    height: 180px;
+    width: 230px;
 }
 
 nav {
@@ -51,11 +56,15 @@ nav ul li {
     display: flex;
     margin: auto;
     padding-top: 30px;
-    flex-wrap: wrap;
+    justify-content: center;
 }
 
 footer {
     background-color: #FBC7F7;
     min-height: 60px;
-    padding: 40px;
+    padding: 40px;   
+}
+
+footer p {
+    text-align: center;
 }

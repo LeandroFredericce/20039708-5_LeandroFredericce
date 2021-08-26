@@ -1,5 +1,3 @@
-<link rel="stylesheet" type="text/css" href="css/produto.css" media="screen" /> 
-
 <?php
     require_once('dados/produtos.php');
 
