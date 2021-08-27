@@ -57,6 +57,7 @@ nav ul li {
     margin: auto;
     padding-top: 30px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 footer {
@@ -68,3 +69,4 @@ footer {
 footer p {
     text-align: center;
 }
+

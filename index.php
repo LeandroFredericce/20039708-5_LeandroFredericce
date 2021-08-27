@@ -21,46 +21,30 @@
         <a href="index.php">
         <img src="images/Logo.png" alt="Logo" class="logo">
         </a>        
-    </header>
+    </header>    
     <nav>
         <ul>
-            <li>
-                <a href="index.php">Home</a>
-            </li>
-            <li>
-                <a href="index.php?page=quem_somos">Quem somos</a>
-            </li>
-            <li>
-                <a href="index.php?page=contato">Contato</a>
-            </li>
-            <li>
-               <a href="index.php?page=localizacao"> Localização </a>
-            </li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="index.php?page=quem_somos">Quem somos</a></li>
+            <li><a href="index.php?page=contato">Contato</a></li>
+            <li><a href="index.php?page=localizacao"> Localização </a></li>
         </ul>
     </nav>
-    <section class="content">
+    <main class="content">
         <div class="container">
             <?php
                 $page = "home";
-
                 if(isset($_GET['page'])){
-
                     if(file_exists("pages/".$_GET['page'].".php")){
                         $page = $_GET['page'];
                     }
                 }
-
                 include("pages/$page.php");
             ?>
         </div>        
-    </section>
-
-    <footer >
-        <p>
-        Aluno: Leandro Fredericce Ferreira <br/>
-        RA: 20039708-5
-        </p>
-    </footer>
-    
+    </main>
+    <footer>
+        <p>Aluno: Leandro Fredericce Ferreira<br/>RA: 20039708-5</p>        
+    </footer>    
 </body>
 </html>
