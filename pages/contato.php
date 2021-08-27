@@ -18,7 +18,7 @@
         <input type="text" placeholder="Telefone" name="telefone">
     </div>
     <div>
-        <textarea nome="mensagem" placeholder="Descreva sua mensagem" rows="9"></textarea>
+        <textarea nome="mensagem" placeholder="Escreva sua mensagem" rows="9"></textarea>
     </div>
     <div>
         <button>Enviar</button>
