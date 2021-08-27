@@ -9,7 +9,7 @@ $produtos['Doce_de_leite'] = array(
 
 $produtos['Cocada_cremosa'] = array(
     'nome' => 'Cocada cremosa | Pote de vidro 680G',
-    'descricao' => 'Ingredientes: <br/><br/> Leite condensado, coco ralado grosso, leite de coco e leite. <br/><br/> NÃO CONTÉM GLÚTEN <br/> A caixa fechada contém 15 unidades.',
+    'descricao' => 'Ingredientes: <br/><br/> Leite condensado, coco ralado grosso, leite de coco e leite. <br/><br/> NÃO CONTÉM GLÚTEN <br/><br/> A caixa fechada contém 15 unidades.',
     'preco' => 8.99,
     'imagem' => 'img2.jpg'
 );
